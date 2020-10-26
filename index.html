@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#education">교육</a>
+            </li>
+            <li>
+                <a href="#experience">공부</a>
+            </li>
+            <li>
+                <a href="#projects">프로젝트</a>
+            </li>
+            <li>
+                <a href="#skills">기술</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+    <div id="lead">
+        <div id="lead-content">
+            <h1>전인우 포트폴리오</h1>
+            <h2>Java Developer</h2>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        아무런 흥미도 없는 분야를 이용하여 직업을 삼기보다는 자신에게 흥미가 있는 분야에서 직업을 삼아야 재미있는 인생을 살 수 있을 거라 생각을 하며 찾던 중 개발자라는 직업에 매료될 수 있었습니다. 그중 서버 및 API 백엔드 개발에 흥미를 느껴 자바 개발자가 되기 위하여 공부하며 노력하고 있습니다.
+                        <br>
+                        <br>
+                        저의 개발자의 목표로는 "아키텍처의 원리를 이해하며 작성하는 코드", "라이센스 준수 및 가독성 좋은 코드", "발전을 위한 꾸준한 자기개발" 이 세 가지를 준수하며 계속해서 성장하는 목표를 가지고 있습니다.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+    <div id="education">
+        <h2 class="heading">교육</h2>
+        <div class="education-block">
+            <h3>비트교육센터</h3>
+            <span class="education-date">2019/05 - 2019/11</span>
+            <h4>Java 교육 과정</h4>
+            <p>
+                JAVA	-	프로그래밍 기초 문법(제어문,배열, 연산자)<br>
+                Database	-	데이터베이스 개념과 이해, Oracle 및 MySQL 설치<br>
+                웹표준 구현	-	HTML5, CSS, CSS3, 반응형 웹 구현<br>
+                JSP & Servlet	-	Servlet과 JSP 구현<br>
+                Spring 	-	Framework 및 Boot 구축<br>
+                실무 프로젝트	-	협업 프로젝트 구축
+            </p>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+    <div id="experience" class="background-alt">
+        <h2 class="heading">공부</h2>
+        <div id="experience-timeline">
+            <div data-date="2020/05 – 2020/11">
+                <h3>Java</h3>
+                <h4>모던 자바 인 액션</h4>
+                <p>
+                    ava의 주요 변화와 Java8 이상의 기법에서 생긴 람다, 스트림, 옵셔널 등 새롭게 생긴 기능과 함수형 프로그래밍에 대하여 스터디를 진행하였습니다.
+                </p>
+            </div>
+            <div data-date="2020/11 – 2021/00">
+                <h3>Spring</h3>
+                <h4>토비의 스프링</h4>
+                <p>
+                    스프링 동작의 이해와 원리를 파악하며 사용을 하기 위하여 스터디를 진행하였습니다.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+    <div id="projects" class="background-alt">
+        <h2 class="heading">프로젝트</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/SMS_LOGO.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>스포츠 매칭 사이트</h3>
+                        <p>
+                            스포츠 사이트를 주제로 이용하여 제작한 다기능 커뮤니티 사이트입니다. 담당한 파트로는 SpringSecurity를 적용한 회원가입 및 로그인과 모든 기능을 연결하며, 결제 API를 연동한 마이페이지를 담당하였습니다.
+                        </p>
+                        <a href="https://github.com/hodolee246/finalPro">Github 보러가기</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/SWAGGER_LOGO.PNG" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>게시판 CRUD(BackEnd)</h3>
+                        <p>
+                            게시판에서 사용하는 CRUD기능을 rest-api로 제작하였으며, api테스트는 postman을 이용하여 테스트하였습니다.
+                        </p>
+                        <a href="https://github.com/hodolee246/JeonInWoo">Github 보러가기</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+    <div id="skills">
+        <h2 class="heading">기술</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>Java</li>
+            <li>Spring</li>
+            <li>Spring Boot</li>
+            <li>Git</li>
+            <li>Oracle</li>
+            <li>MySQL</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+    <div id="contact">
+        <h2>Connect</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/f/myybwarl">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <input type="hidden" name="_next" value="testPortpolio.html" />
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">전송하기</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2020 JeonInWoo
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/hodolee246" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://hodolee246.tistory.com" target="_blank"><i class="fa fa-user" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
